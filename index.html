@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,9 +50,8 @@
 <!-- This puts the page inside a jumbotron -->
 <div class="container-fluid">
 <div class="row jumbotron">
-<!--- Appontment info banner -->
-    <!-- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
+<!-- Image Slider -->
+<!-- <div id="slides" class="carousel slide" data-ride="carousel">
 <ul class="carousel-indicators">
     <li data-target="#slides" data-slide-to="0" class="active"></li>
     <li data-target="#slides" data-slide-to="1"></li>
@@ -92,7 +92,50 @@
             <img src="img/imagenine.jpeg" class="img-rounded" width=100% height="500" alt="none">
     </div>
 </div>    
-</div>
+</div> -->
+<div class="container-fluid padding">
+    <div class="w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides">
+            <img src="img/imageone.jpeg" style="height:500px; width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                French Alps
+            </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+            <img src="img/imagetwo.jpeg" style="width:100%">
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                Northern Lights
+            </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+            <img src="img/imagethree.jpeg" style="width:100%">
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                Beautiful Mountains
+            </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+            <img src="img/imagefour.jpeg" style="width:100%">
+            <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                The Rain Forest
+            </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+            <img src="img/imagefive.jpeg" style="width:100%">
+            <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                Mountains!
+            </div>
+            </div>
+            
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+            
+            </div>
+        </div>
 
 <!--- Welcome Section -->
 <div class="container-fluid padding">
@@ -109,7 +152,7 @@
 <!--- Two Column Section -->
 
 <div class="container-fluid padding">
-    <div class="row text-center padding">
+    <div class="row padding text-center">
             <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
@@ -138,77 +181,42 @@
         <hr class="my-4">
     </div>
 <!--- Image Gallery Lightbox -->
+
+
+
+
+<!--- Location Section Two Columns -->
 <div class="container-fluid padding">
-    <div class="row text-center padding">   
-    <div class="col-sm-12"> 
-        <div class="card">
-            <div class="card-body">
-                    <i class="fas fa-images fa-4x" aria-hidden="true"></i>
-                    <hr>
-                    <h3>Photo Gallery</h3>
-                    <hr>
-                <div class="container">
-                    <div class="top">
-                        <ul>
-                            <li><a href="#img_1"><img src="img/imageone.jpeg" alt=""></a></li>
-                            <li><a href="#img_2"><img src="img/imagetwo.jpg"></a></li>
-                            <li><a href="#img_3"><img src="img/imagethree.jpeg"></a></li>
-                            <li><a href="#img_4"><img src="img/imagefour.jpeg" alt=""></a></li>
-                            <li><a href="#img_5"><img src="img/imagefive.jpeg"></a></li>
-                            <li><a href="#img_6"><img src="img/imagesix.jpeg"></a></li>
-                            <li><a href="#img_7"><img src="img/imageseven.jpeg" alt=""></a></li>
-                            <li><a href="#img_8"><img src="img/imageeight.jpeg"></a></li>
-                            <li><a href="#img_9"><img src="img/imagenine.jpeg"></a></li>
-                            
-                        </ul>
-                        <a href="#_1" class="lightbox trans" id="img_1"><img src="img/imageone.jpeg"></a>
-                        <a href="#_2" class="lightbox trans" id="img_2"><img src="img/imagetwo.jpg"></a>
-                        <a href="#_3" class="lightbox trans" id="img_3"><img src="img/imagethree.jpeg"></a>
-                        <a href="#_4" class="lightbox trans" id="img_4"><img src="img/imagefour.jpeg"></a>
-                        <a href="#_5" class="lightbox trans" id="img_5"><img src="img/imagefive.jpeg"></a>
-                        <a href="#_6" class="lightbox trans" id="img_6"><img src="img/imagesix.jpeg"></a>
-                        <a href="#_7" class="lightbox trans" id="img_7"><img src="img/imageseven.jpeg"></a>
-                        <a href="#_8" class="lightbox trans" id="img_8"><img src="img/imageeight.jpeg"></a>
-                        <a href="#_9" class="lightbox trans" id="img_9"><img src="img/imagenine.jpeg"></a>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-
-<!--- Three Column Section -->
-<div class="container-fluid padding">
-<div class="row pading">
-    <div class="col-md-12 col-lg-3 text-center">
-            <div class="card">
-                    <div class="card-body">
-                            <i class="fa fa-compass fa-4x" aria-hidden="true"></i>
-                            <hr>
-                            <h3>Plaza 15 Dock Location</h3>
-                            <hr>
-                            <p>Plaza 15 Dock is located minutes away from 17th street causeway.</p>
-                            <p>1600 Southeast 15th Street, Fort Lauderdale, FL 33316</p>   
-        
+    <div class="row padding">
+        <div class="col-md-12 col-lg-3 text-center">
+                <div class="card">
+                        <div class="card-body">
+                                <i class="fa fa-compass fa-4x" aria-hidden="true"></i>
+                                <hr>
+                                <h3>Plaza 15 Dock Location</h3>
+                                <hr>
+                                <p>Plaza 15 Dock is located minutes away from 17th street causeway.</p>
+                                <p>1600 Southeast 15th Street, Fort Lauderdale, FL 33316</p>   
             
-                    </div>
-            </div>
-        
+                
+                        </div>
+                </div>
+            
+        </div>
+        <div class="col-lg-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45644.19795432733!2d-80.15395969204823!3d26.10735236501284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9006a03dbbae7%3A0x1cf9f5a8d1d2dbc8!2s1600%20SE%2015th%20St%2C%20Fort%20Lauderdale%2C%20FL%2033316!5e0!3m2!1sen!2sus!4v1568320765571!5m2!1sen!2sus" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
     </div>
-    <div class="col-lg-9">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45644.19795432733!2d-80.15395969204823!3d26.10735236501284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9006a03dbbae7%3A0x1cf9f5a8d1d2dbc8!2s1600%20SE%2015th%20St%2C%20Fort%20Lauderdale%2C%20FL%2033316!5e0!3m2!1sen!2sus!4v1568320765571!5m2!1sen!2sus" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div>
-</div>
 </div>
 
 </div>
 </div>
 </div>
 
+<!--- javascript files-->
+    <!-- image slider -->
+        <script src="imageslider.js"></script>
+    <!-- image gallery -->
 
 </body>
 </html>

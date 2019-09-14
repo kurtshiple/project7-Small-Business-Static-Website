@@ -42,8 +42,8 @@ body {
 
   .navbar-brand {
     line-height:12px;
-    padding-top:20px;
-    padding-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
   }
   
   .navbar-brand small {
@@ -77,7 +77,11 @@ body {
     padding-left: 3px;
   }
 
-/*---Image Gallery ---*/
+/*--- Slideshow ---*/
+.mySlides {display:none;}
+    
+
+  /*---Image Gallery ---*/
 
 *{margin: 0; padding: 0;}
 body{background-color: black;}
