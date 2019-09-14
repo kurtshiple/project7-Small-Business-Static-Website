@@ -15,3 +15,13 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+/* --- Photo Gallery ---*/
+
+$(".gallery").magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery:{
+        enabled: true
+    }
+});
