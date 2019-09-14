@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-nav {
-    color: white
+    color: white;
 }
 
 .jumbotron {
@@ -40,23 +40,27 @@ body {
     padding-left: 10px;
   }
 
-  .navbar-brand {
+.navbar-brand {
     line-height:6px;
     padding-top:0px;
     padding-bottom:0px;
   }
   
-  .navbar-brand small {
+.navbar-brand small {
     color: white;
     display:block;
     font-size:12px;
   }
 
-  .navbar-link {
+.navbar-link {
     color: white;
     display:block;
     font-size:12px;
   }
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
 
   .collapse {
       color: white;
