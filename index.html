@@ -10,7 +10,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -182,7 +185,47 @@
     </div>
 <!--- Image Gallery Lightbox -->
 
-
+<div class="card">
+    <div class="card-body">
+        <i class="fa fa-compass fa-4x" aria-hidden="true"></i>
+        <hr>
+        <h3>Plaza 15 Dock Location</h3>
+        <hr>
+        <div class="gallery-section">
+            <div class="inner-width">
+                    <div class="gallery">
+                        <a href="img/image1.png" class="image">
+                            <img src="img/image1.png" alt="">
+                        </a>
+                        <a href="img/image2.png" class="image">
+                            <img src="img/image2.png" alt="">
+                        </a>
+                        <a href="img/image3.png" class="image">
+                            <img src="img/image3.png" alt="">
+                        </a>
+                        <a href="img/image4.png" class="image">
+                            <img src="img/image4.png" alt="">
+                        </a>
+                        <a href="img/image5.png" class="image">
+                            <img src="img/image5.png" alt="">
+                        </a>
+                        <a href="img/image6.png" class="image">
+                            <img src="img/image6.png" alt="">
+                        </a>
+                        <a href="img/image7.png" class="image">
+                            <img src="img/image7.png" alt="">
+                        </a>
+                        <a href="img/image8.png" class="image">
+                            <img src="img/image8.png" alt="">
+                        </a>
+                        <a href="img/image9.png" class="image">
+                            <img src="img/image9.png" alt="">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+    </div>
+</div>
 
 
 <!--- Location Section Two Columns -->
@@ -217,6 +260,15 @@
     <!-- image slider -->
         <script src="imageslider.js"></script>
     <!-- image gallery -->
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+                enabled: true
+            }
+        });
+    </script>
 
 </body>
 </html>
