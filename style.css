@@ -160,6 +160,18 @@ nav .navbar-nav li a{
     }
 }
 
+
+/*--- Footer ---*/
+
+.site-footer {
+    background: #1E7ACC;
+  }
+  
+  #footer-content {
+    background: #1E7ACC;
+  }
+  
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
