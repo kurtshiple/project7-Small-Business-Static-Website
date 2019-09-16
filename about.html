@@ -70,12 +70,17 @@
     <div id="footer-content">
         <div class="row">
             <div class="col">
-                <p>Theme By | Kurt Shiple | &copy; ----All Rights Reserved.</p>
+                <p>Theme By | Kurt Shiple | <span id="year"></span> &copy; ----All Rights Reserved.</p>
             </div>
         </div>
     </div>
 </footer>
 <!-- FOOTER END -->
+
+<!-- Current Year JS -->
+<script>
+        $('#year').text(new Date().getFullYear());
+</script>
 
 
 </body>
