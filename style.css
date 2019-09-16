@@ -83,6 +83,10 @@ nav .navbar-nav li a{
 
 /*--- Slideshow ---*/
 .mySlides {display:none;}
+
+div.w3-display-bottom{
+    text-align: center;
+}
     
 
   /*---Image Gallery ---*/
